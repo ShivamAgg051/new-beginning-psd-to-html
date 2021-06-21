@@ -1,0 +1,205 @@
+.root-container {
+  width: 100%;
+  display: flex;
+  padding: 32px 0px;
+  min-height: 100vh;
+  max-width: 100%;
+  justify-content: center;
+  background-image: url(/images/header-bg.png);
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 0px 32px;
+}
+
+.navbar-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-buttons-container {
+  display: flex;
+}
+
+.nav-button {
+  margin: 50px 8px;
+  color: white;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social {
+  margin: 50px 8px;
+  color: white;
+  border-radius: 2px;
+  border-color: white;
+  border-width: 1px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 70px);
+  max-height: 1000px;
+}
+
+.hero {
+  height: 100%;
+  width: 1166px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 100px;
+}
+
+.hero-heading {
+  margin: 10px 0px;
+  font-size: 4rem;
+  color: white;
+}
+
+.hero-sub-heading {
+  margin: 10px 0px;
+  color: white;
+  font-size: 2rem;
+}
+
+.hero-buttons {
+  margin: 32px 0px;
+  display: flex;
+}
+
+.hero-button {
+  margin: 8px 0px;
+}
+
+#mobileapp {
+  background-color: whitesmoke;
+  padding-bottom: 0%;
+  height: 1518px;
+}
+
+#blackbox {
+  height: 657px;
+  width: 1000px;
+  background-color: #272727;
+}
+
+#blackbox-img {
+  position: static;
+  height: 556px;
+  width: 600px;
+  padding-top: 100px;
+  padding-left: 00px;
+  margin-right: -100px;
+  float: right;
+}
+
+#appinfo {
+  height: 657px;
+  width: 680px;
+  line-height: 10px;
+  position: relative;
+  left: 1200px;
+  bottom: 500px;
+}
+
+#updateinfo {
+  height: 657px;
+  width: 680px;
+  line-height: 10px;
+  position: relative;
+  left: 200px;
+  bottom: 500px;
+}
+
+#pewimg {
+  height: 857px;
+  width: 896px;
+  line-height: 10px;
+  position: relative;
+  left: 800px;
+  bottom: 520px;
+  margin-bottom: 0%;
+}
+
+.market {
+  width: 100%;
+}
+
+#community.img {
+  text-align: center;
+}
+
+#history {
+  column-gap: 20px;
+  column-count: 2;
+  background-color: #272727;
+  color: white;
+  text-align: left;
+  padding-top: 100px;
+  padding-left: 250px;
+  padding-bottom: 100px;
+}
+
+#mission {
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+#mission.img {
+  padding: 20px;
+  margin: 20px;
+}
+
+#sermons {
+  padding-top: 100px;
+  padding-left: 200px;
+  text-align: center;
+  padding-bottom: 100px;
+  background-color: whitesmoke;
+}
+
+#archiverow {
+  margin-left: -40px;
+  margin-right: 120px;
+}
+
+#archiverow.btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #873b87;
+  font-size: 15px;
+  padding: 15px 20px 15px 20px;
+  border: solid #080808 2px;
+  text-decoration: none;
+}
+
+#giving {
+  padding-top: 150px;
+  padding-left: 230px;
+}
+
+#footer {
+  background-color: #272727;
+  height: 700px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 100px;
+}
+
+.list {
+  padding-top: 100px;
+}
